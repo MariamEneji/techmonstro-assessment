@@ -44,7 +44,7 @@ const Form = () => {
   
 
   return (
-    <div id='contact' className='max-w-[1240px] m-auto p-4 h-screen bg-[#061424]'>
+    <div id='contact' className='w-screen m-auto p-4 h-screen bg-[#061424]'>
   {isSubmitted && (
         <div className='bg-green-500 text-white text-center p-4'>
           Form submitted successfully!
